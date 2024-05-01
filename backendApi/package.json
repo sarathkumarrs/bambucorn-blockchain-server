@@ -1,0 +1,53 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/common": "^3.2.0",
+    "@ethereumjs/tx": "^4.2.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "async-mutex": "^0.4.1",
+    "axios": "^1.6.0",
+    "cluster": "^0.7.7",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "cryptr": "^6.2.0",
+    "dotenv": "^16.0.3",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^7.0.1",
+    "fs": "^0.0.1-security",
+    "hashi-vault-js": "^0.4.11",
+    "helmet": "^6.1.5",
+    "keythereum": "^2.0.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.2",
+    "node-vault": "^0.9.22",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "solc": "^0.8.0",
+    "sticky-session": "^1.1.2",
+    "web3": "^1.10.0",
+    "web3-eth-accounts": "^1.8.0",
+    "web3-eth-personal": "^1.8.0",
+    "web3-providers-ws": "^1.8.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.8"
+  }
+}
